@@ -1,0 +1,455 @@
+.page_background{
+  background: linear-gradient(#E76ED4, #5758EF);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  max-height: 60%;
+}
+.background_image{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1600");
+  min-height: 100%;
+}
+.home_info{
+  position: absolute;
+  top: 40%;
+  font-size: 50px;
+  border: 5px solid #F4E948;
+  height: 150px;
+  width: 700px;
+  text-decoration: solid;
+  text-align: center;
+
+}
+.work_experience_info{
+  padding: 0px;
+  position: absolute;
+  top: 20%;
+  border: 5px solid #F4E948;
+  background-color: #F4E948;
+  height: 300px;
+  width: 550px;
+  text-decoration: solid;
+  left: 25%;
+  right: 25%;
+}
+.work_experience_style{
+  height: 10px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+.hobbies_info{
+  padding: 0px;
+  position: absolute;
+  top: 20%;
+  border: 5px solid #F4E948;
+  background-color: #F4E948;
+  height: 300px;
+  width: 535px;
+  text-decoration: solid;
+  left: 4.3%;
+  right: 4.3%;
+}
+.hobbies_style2{
+  padding: 0px;
+  position: absolute;
+  left: 22%;
+  right: 22%;
+  border: 5px double #F4E948;
+  height: 400px;
+  width: 600px;
+}
+.hobbies_style{
+  height: 10px;
+  font-size: 50px;
+  position: absolute;
+  top: 5%;
+  left: 28%;
+  right: : 28%;
+  text-decoration: underline;
+}
+.education_info{
+  padding: 0px;
+  position: absolute;
+  top: 20%;
+  border: 5px solid #F4E948;
+  background-color: #F4E948;
+  height: 300px;
+  width: 990px;
+  text-decoration: solid;
+  left: 4.3%;
+  right: 4.3%;
+}
+.education_style{
+  height: 10px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+.skills_and_languages_info2{
+  float: right;
+  padding: 0px;
+  position: relative;
+  top: 20%;
+  border: 5px solid #F4E948;
+  background-color: #F4E948;
+  height: 300px;
+  width: 500px;
+  text-decoration: solid;
+}
+.skills_and_languages_info{
+  float: left; 
+  padding: 0px;
+  position: relative;
+  top: 20%;
+  border: 5px solid #F4E948;
+  background-color: #F4E948;
+  height: 300px;
+  width: 500px;
+  text-decoration: solid;
+}
+.skills_and_languages_style{
+  height: 10px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.about_button{
+  color: black;
+  border-radius: 2px;
+  height: 17px;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   background-color: #F4E948;
+}
+.about_style{
+  color: black;
+  height: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.about_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  font-size: 50px;
+  border: 5px solid #F4E948;
+  height: 150px;
+  width: 700px;
+  text-decoration: solid;
+}
+body div ul li p{
+  font-size: 17px;
+  color: black;
+  text-align: inherit;
+}
+footer{
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+body div p{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+body div ul li{
+  font-size: 25px;
+  color: #454545;
+  display: block;
+}
+table thead tr th span, table tbody tr td main span{ 
+  font-size: 15px;
+  color: black;
+}
+table tbody tr td span{
+  font-size: 10px;
+  color: #454545;
+}
+span{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+header div{
+  display: flex;
+  justify-content: center;
+}
+header div div a{
+  position: absolute;
+  top: 75%;
+  left: 41.5%;
+}
+nav{
+  position: absolute;
+	height: 50px;
+	width: 100%;
+	background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav div ul{
+  padding-inline-start: 0px;
+}
+nav div ul li{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 6px 0 0 0;
+  text-align: center;
+  cursor: pointer;
+  height: 40px;
+}
+body, html{
+	margin: 0%;
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+nav div ul li a {
+      position: relative;
+      display: block;
+      padding: 13px 0 0 0;
+      font-family: Lato, sans-serif;
+      color: white;
+      text-decoration: solid;
+      text-transform: uppercase;
+      font-size: 10px;
+      transition: 0.5s;
+}
+
+nav div ul li a::after {
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: #3498db;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s;
+}
+nav div ul li a:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+}
+body div span{
+  display: flex;
+  justify-content: center;
+  left: 18%;
+  padding: 5px;
+}
+body div span p{
+  font-size: 18px;
+}
+.cube{
+  background-color: #1E272D;
+  width: 50px;
+  height: 50px;
+  position: static;
+  top:5px;
+  left: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.close-container{
+  position: relative;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: flex; 
+}
+
+.leftright{
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #F4A259;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: #F4A259;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+
+label{
+  color: white;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+.close{
+  margin: 60px 0 0 5px;
+  position: absolute;
+}
+
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: #F25C66;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: #F25C66;
+}
+.close-container:hover label{
+  opacity: 1;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 120%;
+}
+/* Let's style the wrapper in such away that, 
+it should always be at the center of the browser */
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+  and float them to left and set its border and border-radius.
+ */
+.wrapper ul li {
+  width: 75px;
+  height: 65px;
+  line-height: 75px;
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  float: left;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+.wrapper ul li .fa {
+  color: #D8E2DC;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.wrapper ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+/*twitter*/
+.wrapper ul li:hover.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+/* instagram */
+.wrapper ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+/* google */
+.wrapper ul li:hover.linkedin {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-linkedin {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+/* whatsapp */
+.wrapper ul li:hover.whatsapp {
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
